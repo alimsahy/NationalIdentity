@@ -6,3 +6,5 @@ This PHP class can verify your Turkish National Identity number using algorithm 
 Please use this code for your personal purpose and education. DO NOT USE FOR BAD PURPOSES.
 
 # Algorithm
+
+Republic of Turkey identity number consists of 11 digits. Although each citizen has its own Identity Number, the Identity Numbers are derived from the paternal line.
