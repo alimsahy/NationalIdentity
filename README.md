@@ -11,6 +11,12 @@ Please use this code for your personal purpose and education. DO NOT USE FOR BAD
 * Step 2: Add 29.999 to your national identity number.
 * Step 3: To find 10th and 11th digit of identity number, follow this algorithm
 
+Finding 10th digit.
 
+![10th](https://raw.githubusercontent.com/alimsahy/NationalIdentity/master/algo.png)
+
+Finding 11th digit
+
+![11th](https://raw.githubusercontent.com/alimsahy/NationalIdentity/master/algo11.png)
 
 By repeating the identity number from step 1, you can find the indentity numbers of the other family members.
