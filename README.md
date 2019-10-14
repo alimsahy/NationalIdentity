@@ -9,4 +9,6 @@ Please use this code for your personal purpose and education. DO NOT USE FOR BAD
 
 Republic of Turkey identity number consists of 11 digits. Although each citizen has its own Identity Number, the Identity Numbers are derived from the paternal line.
 
+![alg1](https://raw.githubusercontent.com/alimsahy/NationalIdentity/master/alg1.png)
 
+![alg2](https://raw.githubusercontent.com/alimsahy/NationalIdentity/master/alg2.png)
