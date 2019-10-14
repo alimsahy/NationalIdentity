@@ -3,7 +3,10 @@ Turkish National Identity verifier and finder.
 
 This PHP class can verify your Turkish National Identity number using algorithm without holder name and password. Also, you can find your family members identity numbers using your National identity.
 
-Please use this code for your personal purpose and education. DO NOT USE FOR BAD PURPOSES.
+Please use this code for your personal purpose and education. DO NOT USE FOR BAD PURPOSES
+
+# Identity Verification
+It's same with 'Finding Family Members Identity Number' without Step 2. You can follow same way to verify identity number.
 
 # Finding Family Members Identity Number
 
