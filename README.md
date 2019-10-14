@@ -29,4 +29,4 @@ last digit of x will give you 11th digit.
 
 
 
-By repeating the identity number from step 1, you can find the indentity numbers of the other family members.
+By repeating the identity number you found from step 1, you can find the indentity numbers of the other family members.
