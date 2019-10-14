@@ -5,10 +5,12 @@ This PHP class can verify your Turkish National Identity number using algorithm 
 
 Please use this code for your personal purpose and education. DO NOT USE FOR BAD PURPOSES.
 
-# Algorithm
+# Finding Family Members Identity Number
 
-Republic of Turkey identity number consists of 11 digits. Although each citizen has its own Identity Number, the Identity Numbers are derived from the paternal line.
+* Step 1: Remove last 2 digit of your national identity number
+* Step 2: Add 29.999 to your national identity number.
+* Step 3: To find 10th and 11th digit of identity number, follow this algorithm
 
-![alg1](https://raw.githubusercontent.com/alimsahy/NationalIdentity/master/alg1.png)
 
-![alg2](https://raw.githubusercontent.com/alimsahy/NationalIdentity/master/alg2.png)
+
+By repeating the identity number from step 1, you can find the indentity numbers of the other family members.
