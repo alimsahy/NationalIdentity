@@ -48,10 +48,10 @@ for ($identityIndex = 0; $identityIndex < count($foundedIdentites); $identityInd
             {
                 array_push($foundedPersons, array
                 (
-                    'name'      =>  $names[$nameIndex],
-                    'surname'    =>  $algorithm->surname,
-                    'birthDate' =>  $birthDates[$dateIndex],
-                    'identity'  =>  $foundedIdentites[$identityIndex]
+                    'name'          =>  $names[$nameIndex],
+                    'surname'       =>  $algorithm->surname,
+                    'birthDate'     =>  $birthDates[$dateIndex],
+                    'identity'      =>  $foundedIdentites[$identityIndex]
                 ));
             }
             sleep(10);
