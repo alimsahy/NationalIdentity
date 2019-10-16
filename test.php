@@ -8,5 +8,9 @@ $algorithm->name = 'Alimsah';
 $algorithm->surname = 'YILDIRIM';
 $algorithm->birthDate = '1995';
 
-var_dump($algorithm->checkAlgorithm()); # verifies is $nationalIdentity contains valid identity.
+# verifies is $nationalIdentity contains valid identity.
+if ($algorithm->checkAlgorithm()) 
+{
+    var_dumbp($algorith->verifyIdentity());
+}
 $algorithm->findFamilyNationalIdentites(120); # finds family members identity numbers (up to 120)
