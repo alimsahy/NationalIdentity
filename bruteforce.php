@@ -54,7 +54,7 @@ for ($identityIndex = 0; $identityIndex < count($foundedIdentites); $identityInd
                     'identity'      =>  $foundedIdentites[$identityIndex]
                 ));
             }
-            sleep(10);
+            sleep(10); # wait 10 sec for avoid firewall
         }
     }
 }
