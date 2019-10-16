@@ -33,3 +33,10 @@ last digit of x will give you 11th digit.
 
 
 By repeating the identity number you found from step 1, you can find the indentity numbers of the other family members.
+
+# Brute Forcing
+
+You can verify the identity numbers of your family members that you find on your own identity number by trying random names and birth dates. If you know the name of the family member whose identity number you want to know, you can use brute force using random birth dates for the date of birth.
+
+You dont need to use brute force for surname for mens in your family. You may have to use brute force for married womens (i.e your sister, cousin etc.) 
+
