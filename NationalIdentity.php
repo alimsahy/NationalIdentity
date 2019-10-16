@@ -22,12 +22,13 @@
 
 class NationalIdentity
 {
+    private $m_foundedIdentites = array();
+
     public $name;
     public $surname;
     public $birthDate;
     public $nationalIdentity;
-
-
+    
     /**
      * Verifies your National identity using your name, surname and birth date.
      * 
@@ -59,7 +60,7 @@ class NationalIdentity
         }
         catch (Exception $e)
         {
-            echo $e->getMessage();
+            
             return false;
         }
     }
@@ -126,14 +127,14 @@ class NationalIdentity
     /**
      * Finds other family members based on your national identity
      * 
-     * @param   integer     $count
+     * @param   integer     $repeat
      *  
      * @return  void
      * 
     */
-    public function findFamilyNationalIdentites($repeat = 20)
+    public function findFamilyNationalIdentities($repeat = 20, $print = true)
     {
-        $familyIndex[$count];
+        $familyIndex[$repeat];
 
         if (isset($this->nationalIdentity))
         {
@@ -164,8 +165,25 @@ class NationalIdentity
                 $d = intval($l[0]) + intval($l[2]) + intval($l[4]) + intval($l[6]) + intval($l[8]);
                 $d = $d * 8;
                 $d = ''.$d;
-                echo '<p>'.$familyIndex[$i].$c[strlen($c) - 1].$d[strlen($d) - 1].'</p>';
+
+                array_push($this->m_foundedIdentites, $familyIndex[$i].$c[strlen($c) - 1].$d[strlen($d) - 1]);
+                
+                if ($print)
+                {
+                    echo '<p>'.$familyIndex[$i].$c[strlen($c) - 1].$d[strlen($d) - 1].'</p>';
+                }
             }
         }
+    }
+
+    /**
+     * Returns founded national identities
+     * 
+     * @return  array
+     * 
+    */
+    public function getFoundedNationalIdentities()
+    {
+        return $this->m_foundedIdentites;
     }
 }
