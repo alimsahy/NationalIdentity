@@ -1,6 +1,7 @@
 <?php
 
 require_once 'NationalIdentity.php';
+
 $algorithm = new NationalIdentity();
 $algorithm->nationalIdentity = '99999999999';
 $algorithm->name = 'Alimşah';
