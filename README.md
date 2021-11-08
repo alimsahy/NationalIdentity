@@ -40,3 +40,5 @@ You can verify the identity numbers of your family members that you find on your
 
 You dont need to use brute force for surname for mens in your family. You may have to use brute force for married womens (i.e your sister, cousin etc.) 
 
+# Disclaimer
+Do not use this algorithm and brute force for bad purposes.
